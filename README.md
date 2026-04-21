@@ -1,0 +1,1 @@
+![CI](https://github.com/konst-an/ahj-events/actions/workflows/webpack.yml/badge.svg)
