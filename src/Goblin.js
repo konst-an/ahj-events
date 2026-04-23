@@ -4,11 +4,12 @@ export default class Goblin {
     constructor() {
         this.el = document.createElement('img');
         this.el.src = goblinImg;
+        this.el.alt = 'Goblin';
         this.el.classList.add('goblin');
     }
 
     show(cell) {
-        cell.appendChild(this.el);
+        cell.append(this.el);
     }
 
     remove() {
